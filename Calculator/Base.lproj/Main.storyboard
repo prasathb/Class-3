@@ -73,6 +73,10 @@
                             <constraint firstItem="ReC-e7-Uiw" firstAttribute="top" secondItem="gX4-ot-bq4" secondAttribute="bottom" constant="58" id="B44-hS-wMb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="name1TextField" destination="6ai-jJ-hPL" id="jrN-Bc-DsM"/>
+                        <outlet property="name2TextField" destination="gX4-ot-bq4" id="btj-CU-KiR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
